@@ -1,0 +1,10 @@
+{
+  "bundler": "webpack",
+  "shimport": null,
+  "assets": {
+    "main": "085b398327a73330d971/main.js"
+  },
+  "css": {
+    "main": null
+  }
+}

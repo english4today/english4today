@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "export": "yarn web export && mv ./workspaces/web/__sapper__/ .",
-    "deploy": "echo 'librelingo.app' > __sapper__/export/CNAME && gh-pages -d __sapper__/export",
+    "deploy": "gh-pages -d __sapper__/export",
     "commit": "git-cz",
     "test": "yarn web test",
     "test:ci": "yarn web test:ci",
